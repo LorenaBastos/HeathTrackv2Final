@@ -1,0 +1,61 @@
+.fundo{
+    background-image: url(./../images/verde.jpg);
+    width: 50%;
+    height: 100vh;
+    padding: 0 100px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(160, 160, 160);
+    padding: 50px;
+    border-radius: 15px;
+    margin-left: 1270px;
+    margin-top: 80px;
+}
+
+.container {
+    box-shadow: 22px 22px 43px -2px rgba(73, 100, 59, 0.89); 
+}
+
+.mb-3 label {
+    Display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    color: black;
+}
+
+.mb-3 input {
+    margin: auto;
+    padding: 4px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    color: red;
+    width: 350px;
+    font-size: x-large;
+}
+
+@media (max-width:800px) {
+    .container{
+        margin-left: 750px;
+        padding: 50px 15px;
+    }
+}
